@@ -48,8 +48,19 @@ npm run report
 The tests are organized into feature areas:
 
 - `hubbl-home.spec.ts` - Tests for the homepage
-- `hubbl-services.spec.ts` - Tests for the services page
-- `hubbl-contact.spec.ts` - Tests for the contact page and form validation
+- `hubbl-services.spec.ts` - Tests for the glass product page
+- `hubbl-contact.spec.ts` - Tests for the help center
+- `site-check.spec.ts` - Helper test to explore the site structure
+
+## Test Coverage
+
+Current test coverage includes:
+
+- Homepage navigation and content verification
+- Glass page product information checking
+- Help center article navigation
+- Cross-page navigation
+- Search functionality in the help center
 
 ## Setting up GitHub Actions
 
